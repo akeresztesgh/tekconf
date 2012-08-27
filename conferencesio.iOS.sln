@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteNet", "libs\SqliteNet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferencesIO.Mappers.IO", "libs\ConferencesIO.Mappers.IO\ConferencesIO.Mappers.IO.csproj", "{8D10D14B-3B39-42B3-9767-1C6AAA44A79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap", "..\catnap\src\Catnap\Catnap.csproj", "{DAA3814A-CC0D-40F8-8DDD-EC00687BC1FA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferencesIO.UI.iOS.Tests.Int", "Tests\UI\ConferencesIO.UI.iOS\ConferencesIO.UI.iOS.Tests.Int\ConferencesIO.UI.iOS.Tests.Int.csproj", "{44846EE4-EDA0-40A1-96ED-EC293E404D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catnap.MonoTouch", "..\catnap\src\Catnap\Catnap.MonoTouch.csproj", "{DAA3814A-CC0D-40F8-8DDD-EC00687BC1FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,5 +135,18 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Tests\UI\ConferencesIO.UI.iOS\ConferencesIO.UI.iOS.Tests.Int\ConferencesIO.UI.iOS.Tests.Int.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
 	EndGlobalSection
 EndGlobal

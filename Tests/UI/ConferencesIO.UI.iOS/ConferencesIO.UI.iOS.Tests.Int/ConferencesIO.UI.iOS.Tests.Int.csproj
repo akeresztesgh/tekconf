@@ -98,9 +98,9 @@
       <Project>{2CF3432D-C779-44DF-9446-CB5AE42CB4C5}</Project>
       <Name>ConferencesIO.LocalData.iOS</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\..\catnap\src\Catnap\Catnap.csproj">
+    <ProjectReference Include="..\..\..\..\..\catnap\src\Catnap\Catnap.MonoTouch.csproj">
       <Project>{DAA3814A-CC0D-40F8-8DDD-EC00687BC1FA}</Project>
-      <Name>Catnap</Name>
+      <Name>Catnap.MonoTouch</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

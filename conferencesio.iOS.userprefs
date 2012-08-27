@@ -1,21 +1,23 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/UI/ConferencesIO.UI.iOS/ConferencesIO.UI.iOS.Tests.Int/LocalDatabaseFixtures.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../catnap/src/Catnap/Criteria/Conditions/Criteria.cs">
     <Files>
-      <File FileName="Tests/UI/ConferencesIO.UI.iOS/ConferencesIO.UI.iOS.Tests.Int/LocalDatabaseFixtures.cs" Line="64" Column="22" />
-      <File FileName="../catnap/src/Catnap/Session.cs" Line="67" Column="10" />
-      <File FileName="../catnap/src/Catnap/UnitOfWork.cs" Line="23" Column="24" />
-      <File FileName="../catnap/src/Catnap/Mapping/Impl/DomainMap.cs" Line="61" Column="1" />
+      <File FileName="Tests/UI/ConferencesIO.UI.iOS/ConferencesIO.UI.iOS.Tests.Int/LocalDatabaseFixtures.cs" Line="55" Column="4" />
+      <File FileName="LocalData/iOS/ConferencesIO.LocalData.iOS/EntityGuid.cs" Line="16" Column="1" />
+      <File FileName="Tests/UI/ConferencesIO.UI.iOS/ConferencesIO.UI.iOS.Tests.Int/Main.cs" Line="17" Column="1" />
+      <File FileName="../catnap/src/Catnap/UnitOfWork.cs" Line="19" Column="10" />
+      <File FileName="../catnap/src/Catnap/Criteria/Conditions/Criteria.cs" Line="223" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Catnap" expanded="True">
-            <Node name="Mapping" expanded="True">
-              <Node name="Impl" expanded="True" />
+        <State expanded="True" selected="True">
+          <Node name="Catnap.MonoTouch" expanded="True">
+            <Node name="Criteria" expanded="True">
+              <Node name="Conditions" expanded="True" />
             </Node>
           </Node>
           <Node name="ConferencesIO.LocalData.iOS" expanded="True">
+            <Node name="References" expanded="True" />
             <Node name="Data" expanded="True" />
             <Node name="Model" expanded="True">
               <Node name="Entities" expanded="True" />
@@ -23,7 +25,7 @@
           </Node>
           <Node name="ConferencesIO.UI.iOS" expanded="True" />
           <Node name="ConferencesIO.UI.iOS.Tests.Int" expanded="True">
-            <Node name="LocalDatabaseFixtures.cs" selected="True" />
+            <Node name="References" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -45,6 +47,7 @@
       <Breakpoint file="/Users/rgibbens/dev/conferencesio/Tests/UI/ConferencesIO.UI.iOS/ConferencesIO.UI.iOS.Tests.Int/LocalDatabaseFixtures.cs" line="98" />
       <Breakpoint file="/Users/rgibbens/dev/conferencesio/Tests/UI/ConferencesIO.UI.iOS/ConferencesIO.UI.iOS.Tests.Int/LocalDatabaseFixtures.cs" line="112" />
       <Breakpoint file="/Users/rgibbens/dev/conferencesio/Tests/UI/ConferencesIO.UI.iOS/ConferencesIO.UI.iOS.Tests.Int/LocalDatabaseFixtures.cs" line="60" />
+      <Breakpoint file="/Users/Rob/dev/catnap/src/Catnap/Citeria/Conditions/Criteria.cs" line="252" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

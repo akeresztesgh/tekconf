@@ -68,15 +68,15 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\catnap\src\Catnap\Catnap.csproj">
-      <Project>{DAA3814A-CC0D-40F8-8DDD-EC00687BC1FA}</Project>
-      <Name>Catnap</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Model\" />
     <Folder Include="Model\Entities\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\catnap\src\Catnap\Catnap.MonoTouch.csproj">
+      <Project>{DAA3814A-CC0D-40F8-8DDD-EC00687BC1FA}</Project>
+      <Name>Catnap.MonoTouch</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
